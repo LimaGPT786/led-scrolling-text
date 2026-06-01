@@ -3,7 +3,7 @@
 #include <Adafruit_NeoPixel.h>
 
 #define PIN 8
-#define EAR_RIGHT 4
+//#define EAR_RIGHT 4
 
 String ledText = "Hello world";
 
@@ -63,7 +63,7 @@ void updateLEDText() {
 
 
 void loop() {
-  analogWrite(EAR_RIGHT, 255);
+  //analogWrite(EAR_RIGHT, 255);
 
   matrix.fillScreen(0);    //Turn off all the LEDs
   updateLEDText();
